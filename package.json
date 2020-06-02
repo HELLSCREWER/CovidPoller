@@ -1,0 +1,29 @@
+{
+  "name": "covid-poller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hellscrewer@bitbucket.org/hellscrewer/covid19stats.git"
+  },
+  "author": "hellscrewer",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hellscrewer/covid19stats#readme",
+  "dependencies": {
+    "async-polling": "^0.2.1",
+    "cheerio": "^1.0.0-rc.3",
+    "mongoose": "^5.9.10",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "prettier": "2.0.2"
+  }
+}
